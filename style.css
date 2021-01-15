@@ -1,0 +1,56 @@
+#logo{
+    font-family: cursive;
+    text-align: center;
+    color: blue;
+    animation: animateColor 6s infinite;
+}
+
+.logo{
+    font-family: cursive;
+    text-align: center;
+    color: blue;
+    animation: animateColor 10s infinite;
+}
+
+body{
+    background: url(bg.jpg) no-repeat;
+}
+
+textarea{
+    outline: none;
+    padding: 1vw;
+    font-size: large;
+    width: 95%;
+}
+
+.type{
+    margin: auto;
+    display: block;
+    width: 95%;
+    height: 500px;
+    border: 3px solid yellow;
+    background: url(https://source.unsplash.com/1500x600/?nature,16k) no-repeat;
+    background-size: cover;
+    font-family: cursive;
+    font-weight: 700;
+    color: chartreuse;
+
+}
+
+@keyframes animateColor{
+    0%{
+        color: blue;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: blueviolet;
+    }
+    75%{
+        color: red;
+    }
+    100%{
+        color: blue;
+    }
+}
